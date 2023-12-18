@@ -18,7 +18,6 @@ struct AstNode
 };
 
 // Define a calculator grammar using Boost Spirit
-// standad way of repersenting alangiuage
 template <typename Iterator>
 struct CalculatorGrammar : boost::spirit::qi::grammar<Iterator, AstNode(), boost::spirit::qi::space_type>
 {
